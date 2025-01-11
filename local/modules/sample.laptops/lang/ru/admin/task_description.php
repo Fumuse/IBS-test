@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * @var array $MESS
+ */
+$MESS['SAMPLE_LAPTOP_MODULE_PERMISSION_DENY'] = 'Нет доступа';
+$MESS['SAMPLE_LAPTOP_MODULE_PERMISSION_READ'] = 'Чтение';
+$MESS['SAMPLE_LAPTOP_MODULE_PERMISSION_ADD'] = 'Добавление';

@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * @var array $MESS
+ */
+$MESS['LAPTOPS_CATALOG_DETAIL_COMPONENT_NAME'] = 'Детальная страница ноутбука';
+$MESS['LAPTOPS_CATALOG_DETAIL_COMPONENT_DESCRIPTION'] = '';
+$MESS['LAPTOPS_CATALOG_COMPONENT_CATEGORY_TITLE'] = 'Ноутбуки';
