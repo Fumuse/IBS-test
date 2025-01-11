@@ -83,7 +83,7 @@ class CLaptopsCatalog extends \CBitrixComponent
             $this->urlVariables
         );
 
-        if (intval($this->urlVariables['LAPTOP']) > 0) {
+        if (intval($this->urlVariables['LAPTOP_ID']) > 0) {
             $this->componentPage = "detail";
         } elseif (intval($this->urlVariables['BRAND']) > 0) {
             if (intval($this->urlVariables['MODEL']) > 0) {

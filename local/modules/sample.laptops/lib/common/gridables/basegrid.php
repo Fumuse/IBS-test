@@ -73,7 +73,7 @@ abstract class BaseGrid implements IGridable
             $this->settings['sefFolder'] ?? null,
             [
                 'default' => [
-                    'LAPTOP' => $laptop?->getId(),
+                    'LAPTOP_ID' => $laptop?->getId(),
                 ],
                 'sef' => [
                     'LAPTOP' => $laptop?->getSlug(),
