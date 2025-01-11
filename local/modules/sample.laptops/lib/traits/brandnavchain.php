@@ -10,7 +10,7 @@ trait BrandNavChain
     protected function getBrand(int|string $brandPrimary)
     {
         $filter = [];
-        if (!empty($this->isSefMode)) {
+        if ($this->isSefMode) {
             $filter['=SLUG'] = $brandPrimary;
         } else {
             $filter['=ID'] = intval($brandPrimary);

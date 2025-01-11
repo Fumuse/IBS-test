@@ -25,7 +25,7 @@ class LaptopGrid extends BaseGrid
     {
         if (isset($this->settings['filter']['MODEL'])) {
             $this->filter = [];
-            if (!empty($this->isSefMode)) {
+            if ($this->isSefMode) {
                 $this->filter['=MODEL.SLUG'] = $this->settings['filter']['MODEL'];
             } else {
                 $this->filter['=MODEL.ID'] = intval($this->settings['filter']['MODEL']);

@@ -23,7 +23,7 @@ class ModelGrid extends BaseGrid
     {
         if (isset($this->settings['filter']['BRAND'])) {
             $this->filter = [];
-            if (!empty($this->isSefMode)) {
+            if ($this->isSefMode) {
                 $this->filter['=BRAND.SLUG'] = $this->settings['filter']['BRAND'];
             } else {
                 $this->filter['=BRAND.ID'] = intval($this->settings['filter']['BRAND']);

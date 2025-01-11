@@ -10,7 +10,7 @@ trait ModelNavChain
     protected function getModel(int|string $modelPrimary)
     {
         $filter = [];
-        if (!empty($this->isSefMode)) {
+        if ($this->isSefMode) {
             $filter['=SLUG'] = $modelPrimary;
         } else {
             $filter['=ID'] = intval($modelPrimary);
